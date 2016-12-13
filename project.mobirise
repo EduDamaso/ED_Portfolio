@@ -1,0 +1,843 @@
+{
+  "settings": {
+    "name": "EduardoDamaso",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.9.2",
+    "uniqCompNum": 6,
+    "versionPublish": "3.10",
+    "publishType": "github",
+    "publishPath": "file:///C:/Trabalho/ED%20Portfolio/ED%20Portfolio%20Website/ED%20Portfolio%20Website%20alpha1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "ftpLocation": "ftp://humansha@184.154.224.13/E:21",
+    "publishFtpPath": "ED"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">EDUARDO DÂMASO</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">SOBRE MIM</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "EDUARDO<br>DÂMASO",
+          "text": "Multimedia Digital Artistry",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MAIS</a>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery4",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "images": [
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/honda-brandwalls1-v2-800x500-65.png",
+                "image": "@PROJECT_PATH@/assets/images/honda-brandwalls1-v2.gif",
+                "caption": "Honda - Brand Walls<br>",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mercer-beneficios20-800x500-65.png",
+                "image": "@PROJECT_PATH@/assets/images/mercer-beneficios20.gif",
+                "caption": "Mercer - Benefícios 2.0&nbsp;",
+                "active": false
+              },
+              {
+                "tags": "Video | Sound",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=IPZWoh2XKkE",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2016-12-01-17-21-02.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-mrneat1-800x500-0.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-mrneat1.gif",
+                "caption": "Honda - \"Sonhos\" SIA2008",
+                "active": false
+              },
+              {
+                "tags": "Branding",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-palcodechocolate-800x500-60.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-palcodechocolate.gif",
+                "caption": "Palco de Chocolate - C.I.",
+                "active": false
+              },
+              {
+                "tags": "e-Learning",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ed-elearning-cgd-cxwoman-800x500-68.png",
+                "image": "@PROJECT_PATH@/assets/images/ed-elearning-cgd-cxwoman.gif",
+                "caption": "CGD | e-Learning",
+                "active": false
+              },
+              {
+                "tags": "Branding",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-mrneat1-800x500-0.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-mrneat1.gif",
+                "caption": "MrNeat - Branding C.I.",
+                "active": false
+              },
+              {
+                "tags": "Interactives",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/honda-cartalkers-v2-800x500-71.png",
+                "image": "@PROJECT_PATH@/assets/images/honda-cartalkers-v2.gif",
+                "caption": "Honda Cartalkers - SIA2008",
+                "active": false
+              },
+              {
+                "tags": "Digital Publishing",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/digitalpublish-outsystems1-800x500-37.png",
+                "image": "@PROJECT_PATH@/assets/images/digitalpublish-outsystems1.gif",
+                "caption": "Outsystems - Digital Publish",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/honda-posters1-v2-800x500-56.png",
+                "image": "@PROJECT_PATH@/assets/images/honda-posters1-v2.gif",
+                "caption": "Honda Posters",
+                "active": false
+              },
+              {
+                "tags": "WebDesign",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webdesign-sanfilippoportugal-800x500-56.png",
+                "image": "@PROJECT_PATH@/assets/images/webdesign-sanfilippoportugal.gif",
+                "caption": "A. Sanfilippo Portugal Website",
+                "active": false
+              },
+              {
+                "tags": "e-Learning",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ed-laptop-tutoriaiscgd0-800x500-71.png",
+                "image": "@PROJECT_PATH@/assets/images/ed-laptop-tutoriaiscgd0.gif",
+                "caption": "CGD | e-Learning&nbsp;",
+                "active": false
+              },
+              {
+                "tags": "Branding",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-fitametrica4-800x500-22.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-fitametrica4.gif",
+                "caption": "Fitamétrica - Branding C.I.",
+                "active": false
+              },
+              {
+                "tags": "Branding",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-housemaid1-800x500-36.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-housemaid1.gif",
+                "caption": "HouseMaid - Branding C.I.",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mercer-ect-800x500-71.png",
+                "image": "@PROJECT_PATH@/assets/images/mercer-ect.gif",
+                "caption": "Mercer - ECT - Pers. Brochure",
+                "active": false
+              },
+              {
+                "tags": "Video | Sound",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=BowzS-_jdSY",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2016-12-01-17-37-05.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-mrneat1-800x500-0.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-mrneat1.gif",
+                "caption": "Honda - \"ASIMO\" SIA2008",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/designadvertising-housemaid1-800x500-48.png",
+                "image": "@PROJECT_PATH@/assets/images/designadvertising-housemaid1.gif",
+                "caption": "Housemaid - Design/Ads",
+                "active": false
+              },
+              {
+                "tags": "WebDesign",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webdesign-mrneat-800x500-3.png",
+                "image": "@PROJECT_PATH@/assets/images/webdesign-mrneat.gif",
+                "caption": "Mr.Neat Website",
+                "active": false
+              },
+              {
+                "tags": "Interactives",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/interactives-ool-bagtax-800x500-36.png",
+                "image": "@PROJECT_PATH@/assets/images/interactives-ool-bagtax.gif",
+                "caption": "OOL - &nbsp;Bagtax - UI&amp;Design",
+                "active": false
+              },
+              {
+                "tags": "Branding",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-logo-audiovital-2000x1250-43-2000x1250-75.jpg",
+                "image": "@PROJECT_PATH@/assets/images/branding-logo-audiovital-2000x1250-43.jpg",
+                "caption": "Audiovital - Branding C.I.",
+                "active": false
+              },
+              {
+                "tags": "WebDesign",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ed-webdesign-honda2-jazzmicrosite-800x500-54.png",
+                "image": "@PROJECT_PATH@/assets/images/ed-webdesign-honda2-jazzmicrosite.gif",
+                "caption": "Honda Jazz Microsite",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mercer-beneficios20-2-800x500-90.png",
+                "image": "@PROJECT_PATH@/assets/images/mercer-beneficios20-2.gif",
+                "caption": "Mercer - Benefícios 2.0 Posters",
+                "active": false
+              },
+              {
+                "tags": "Branding",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-logo-houmai-2000x1250-78-2000x1250-53.jpg",
+                "image": "@PROJECT_PATH@/assets/images/branding-logo-houmai-2000x1250-78.jpg",
+                "caption": "Houmai - Branding",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/honda-posters2-v2-800x500-93.png",
+                "image": "@PROJECT_PATH@/assets/images/honda-posters2-v2.gif",
+                "caption": "Honda - Posters",
+                "active": false
+              },
+              {
+                "tags": "Video | Sound",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=iaW65nk-_Y0",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2016-12-01-17-37-31.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-mrneat1-800x500-0.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-mrneat1.gif",
+                "caption": "Honda - \"FCX - ZeroEmissions\" SIA2008",
+                "active": false
+              },
+              {
+                "tags": "e-Learning",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/interactives-elearning-bt-microsoft-800x500-69.png",
+                "image": "@PROJECT_PATH@/assets/images/interactives-elearning-bt-microsoft.gif",
+                "caption": "Microsoft - Interactive Demo&nbsp;<br>",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/designads-palcodechoc-teatroinfantil-800x500-26.png",
+                "image": "@PROJECT_PATH@/assets/images/designads-palcodechoc-teatroinfantil.gif",
+                "caption": "PdC - Posters - Teatro Infantil",
+                "active": false
+              },
+              {
+                "tags": "e-Learning",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ed-laptop-tutoriaiscgd2-800x500-92.png",
+                "image": "@PROJECT_PATH@/assets/images/ed-laptop-tutoriaiscgd2.gif",
+                "caption": "CGD | e-Learning <br>",
+                "active": false
+              },
+              {
+                "tags": "Branding",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-logo-asturiascafe-2000x1250-3-2000x1250-4.jpg",
+                "image": "@PROJECT_PATH@/assets/images/branding-logo-asturiascafe-2000x1250-3.jpg",
+                "caption": "Astúrias Café - Branding",
+                "active": false
+              },
+              {
+                "tags": "WebDesign",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ed-webdesign-honda1-800x500-40.png",
+                "image": "@PROJECT_PATH@/assets/images/ed-webdesign-honda1.gif",
+                "caption": "Honda Website CarConfigs<br>",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/designads-palcodechoc-teatro-800x500-24.png",
+                "image": "@PROJECT_PATH@/assets/images/designads-palcodechoc-teatro.gif",
+                "caption": "PdC - Posters - Teatro",
+                "active": false
+              },
+              {
+                "tags": "WebDesign",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ed-webdesign-honda3-800x500-86.png",
+                "image": "@PROJECT_PATH@/assets/images/ed-webdesign-honda3.gif",
+                "caption": "Honda Website Homepages",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/honda-brandwalls2-v2-800x500-91.png",
+                "image": "@PROJECT_PATH@/assets/images/honda-brandwalls2-v2.gif",
+                "caption": "Honda Brand Walls",
+                "active": false
+              },
+              {
+                "tags": "Video | Sound",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=dOWC2dSNcMY",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2016-12-05-16-47-29.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-mrneat1-800x500-0.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-mrneat1.gif",
+                "caption": "Ar.Co - Sonoplastia - Ad",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/honda-print1-800x500-71.png",
+                "image": "@PROJECT_PATH@/assets/images/honda-print1.gif",
+                "caption": "Honda Model Catalog - Accord",
+                "active": false
+              },
+              {
+                "tags": "Digital Publishing",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/honda-newsletters1-800x500-0.png",
+                "image": "@PROJECT_PATH@/assets/images/honda-newsletters1.gif",
+                "caption": "Honda Digital Newsletters",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/honda-print2-800x500-91.png",
+                "image": "@PROJECT_PATH@/assets/images/honda-print2.gif",
+                "caption": "Honda Brand Catalog - Accords",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/paginacao-housemaid1-800x500-96.png",
+                "image": "@PROJECT_PATH@/assets/images/paginacao-housemaid1.gif",
+                "caption": "HouseMaid Folders | Newsletter",
+                "active": false
+              },
+              {
+                "tags": "Video | Sound",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=CqALFOeckvY",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2016-12-01-17-36-30.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-mrneat1-800x500-0.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-mrneat1.gif",
+                "caption": "Honda - \"Aventura\" SIA2008",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/designadvertising-mrneat1-800x500-15.png",
+                "image": "@PROJECT_PATH@/assets/images/designadvertising-mrneat1.gif",
+                "caption": "Mr.Neat - Design&amp;Ads",
+                "active": false
+              },
+              {
+                "tags": "Video | Sound",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=Yx52gx0Ol08",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2016-12-01-17-38-23.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-mrneat1-800x500-0.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-mrneat1.gif",
+                "caption": "Honda - \"Hybrid\" SIA2008",
+                "active": false
+              },
+              {
+                "tags": "Video | Sound",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=oM1Ddu6JAmo",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2016-12-01-18-46-21.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-mrneat1-800x500-0.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-mrneat1.gif",
+                "caption": "Outsystems - summer 2014",
+                "active": false
+              },
+              {
+                "tags": "WebDesign",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webdesign-fitametrica2-800x500-52.png",
+                "image": "@PROJECT_PATH@/assets/images/webdesign-fitametrica2.gif",
+                "caption": "Fitametrica - microsite",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/designadvertising-lds-800x500-47.png",
+                "image": "@PROJECT_PATH@/assets/images/designadvertising-lds.gif",
+                "caption": "Loja das Sopas - POS",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/designadvertising-fitametrica-800x500-96.png",
+                "image": "@PROJECT_PATH@/assets/images/designadvertising-fitametrica.gif",
+                "caption": "Fitamétrica - Advertising",
+                "active": false
+              },
+              {
+                "tags": "Interactives",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/interactives-ool-sabt2-800x500-70.png",
+                "image": "@PROJECT_PATH@/assets/images/interactives-ool-sabt2.gif",
+                "caption": "OOL - SABT - UI &amp; Design",
+                "active": false
+              },
+              {
+                "tags": "Interactives",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/interactives-hondaf1-800x500-62.png",
+                "image": "@PROJECT_PATH@/assets/images/interactives-hondaf1.gif",
+                "caption": "HONDA - WebApp - F1 quiz",
+                "active": false
+              },
+              {
+                "tags": "e-Learning",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/interactives-elearning-grohe-800x500-52.png",
+                "image": "@PROJECT_PATH@/assets/images/interactives-elearning-grohe.gif",
+                "caption": "GROHE &nbsp;| e-Learning <br>",
+                "active": false
+              },
+              {
+                "tags": "WebDesign",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webdesign-clinicariape-800x500-27.png",
+                "image": "@PROJECT_PATH@/assets/images/webdesign-clinicariape.gif",
+                "caption": "Clinica RiaPé - Website",
+                "active": false
+              },
+              {
+                "tags": "WebDesign",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webdesign-palco1-800x500-39.png",
+                "image": "@PROJECT_PATH@/assets/images/webdesign-palco1.gif",
+                "caption": "Honda Website Homepages",
+                "active": false
+              },
+              {
+                "tags": "WebDesign",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webdesign-housemaid1-800x500-30.png",
+                "image": "@PROJECT_PATH@/assets/images/webdesign-housemaid1.gif",
+                "caption": "Honda Website Homepages",
+                "active": false
+              },
+              {
+                "tags": "WebDesign",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webdesign-fitametrica1-800x500-20.png",
+                "image": "@PROJECT_PATH@/assets/images/webdesign-fitametrica1.gif",
+                "caption": "Honda Website Homepages",
+                "active": false
+              },
+              {
+                "tags": "WebDesign",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webdesign-housemaid2-old-800x500-18.png",
+                "image": "@PROJECT_PATH@/assets/images/webdesign-housemaid2-old.gif",
+                "caption": "HouseMaid - Website",
+                "active": false
+              },
+              {
+                "tags": "Video | Sound",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=sPcjIMCzpyE",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/logo.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-mrneat1-800x500-0.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-mrneat1.gif",
+                "caption": "Outsystems - NextStep2015 teaser",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/designads-tractoresportugal1-800x500-23.png",
+                "image": "@PROJECT_PATH@/assets/images/designads-tractoresportugal1.gif",
+                "caption": "TP - Posters",
+                "active": false
+              },
+              {
+                "tags": "Branding",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/branding-bonecalua-800x500-61.png",
+                "image": "@PROJECT_PATH@/assets/images/branding-bonecalua.gif",
+                "caption": "Boneca Lua - Branding",
+                "active": false
+              },
+              {
+                "tags": "Advertising | Design",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/designads-mercer-800x500-35.png",
+                "image": "@PROJECT_PATH@/assets/images/designads-mercer.gif",
+                "caption": "Mercer - Design&amp;Ads",
+                "active": false
+              },
+              {
+                "tags": "WebDesign",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webdesign-houmai-800x500-18.png",
+                "image": "@PROJECT_PATH@/assets/images/webdesign-houmai.gif",
+                "caption": "Houmai Microsite",
+                "active": true
+              }
+            ],
+            "spacing": "1",
+            "showText": true,
+            "filter": true,
+            "bgColor": "#c1c1c1",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery4-3",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_inherit": "testimonials2",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials4",
+          "testimonial": [
+            {
+              "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Abanoub S.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Suffian A.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Jhollman C.",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials4-5",
+          "_params": {
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false
+          },
+          "title": "RESUMÉ",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        }
+      ]
+    }
+  }
+}
